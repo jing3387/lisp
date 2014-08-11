@@ -4,7 +4,7 @@
 (in-package :lisp-system)
 
 (defsystem :lisp
-  :description "Lisp in Small Pieces"
+  :description "Simple Lisp interpreter"
   :serial t
   :depends-on (:alexandria :optima :iterate)
   :components ((:file "chapter-one")))
